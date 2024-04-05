@@ -1,0 +1,167 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.barranavegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    color: #333;
+}
+
+.portada {
+    background-image: url('https://github.com/ironhack-labs/lab-css-spotify-clone-es/blob/master/images/landing.jpg?raw=true');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    text-align: center;
+    color: #FFF;
+}
+
+.contenido h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.contenido p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.cajas-section {
+    padding: 0px 0;
+}
+
+.caja {
+    background-color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.caja h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-skip-ink;
+}
+
+.contenidospoti {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.cuadro {
+    width: 300px;
+    padding: 20px;
+    background-color: #FFF
+}
+
+.cuadro img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+.cuadro h3, .cuadro p {
+    margin: 10px 0;
+    color: #00B172;
+}
+
+.contenedor {
+    display: flex;
+    background-color: #00B172;
+    height: 65vh;
+}
+
+.seccion-izquierda, .seccion-derecha {
+    flex: 1;
+    padding: 20px;
+}
+
+.whitelogo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitelogo img {
+    max-width: 20%;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-left: 100px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.subseccion {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.subseccion h3 {
+    margin: 0;
+    color: #FFF;
+}
+
+.subseccion p {
+    margin: 20px 0;
+    color: #FFF;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.seccion-derecha img {
+    max-width: 45%;
+    margin-top: 40px;
+}
